@@ -61,7 +61,7 @@ if __name__ == '__main__':
                     if action == '':
                         new_name = row[0]
                     elif action == '1':
-                        new_name = prefix1 + row[0]
+                        new_name = prefix + '/' + row[0]
                     else:
                         new_name = action
 
